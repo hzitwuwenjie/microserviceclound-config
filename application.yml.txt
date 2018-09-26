@@ -1,10 +1,10 @@
-spring:
+ï»¿spring:
   profiles:
     active:
      -dv
 
 ------
-spring:       #¿ª·¢»·¾³
+spring:       #å¼€å‘ç¯å¢ƒ
   profiles:dev
   application:
      name:microserviceclound-config-mdc-dev
@@ -13,6 +13,6 @@ spring:       #¿ª·¢»·¾³
 
 ------
 spring:
-  profiles:test	#²âÊÔ»·¾³
+  profiles:test	#æµ‹è¯•ç¯å¢ƒ
   application:
      name:microserviceclound-config-mdc-test
