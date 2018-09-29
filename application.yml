@@ -1,18 +1,18 @@
-﻿spring:
+spring:
   profiles:
     active:
      -dv
 
 ------
 spring:       #开发环境
-  profiles:dev
+  profiles: dev
   application:
-     name:microserviceclound-config-mdc-dev
+     name: microserviceclound-config-mdc-dev
 
 
 
 ------
 spring:
-  profiles:test	#测试环境
+  profiles: test	#测试环境
   application:
-     name:microserviceclound-config-mdc-test
+     name: microserviceclound-config-mdc-test
