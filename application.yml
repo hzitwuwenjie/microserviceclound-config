@@ -1,7 +1,7 @@
 spring:
   profiles:
     active:
-     -dv
+     -dev
 
 ------
 spring:       #开发环境
