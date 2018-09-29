@@ -7,7 +7,7 @@ spring:
 spring:       #开发环境
   profiles: dev
   application:
-     name: microserviceclound-config-mdc-dev
+         name: microserviceclound-config-mdc-dev
 
 
 
@@ -15,4 +15,4 @@ spring:       #开发环境
 spring:
   profiles: test	#测试环境
   application:
-     name: microserviceclound-config-mdc-test
+         name: microserviceclound-config-mdc-test
