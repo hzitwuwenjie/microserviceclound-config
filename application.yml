@@ -4,7 +4,7 @@ spring:
      -dev
 
 ------
-spring:       #开发环境
+spring:       #开发环境,文件是公开的
   profiles: dev
   application:
          name: microserviceclound-config-mdc-dev
